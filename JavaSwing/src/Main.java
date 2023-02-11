@@ -9,6 +9,7 @@ public class Main {
                 mainWindow.show();
                 JFrameOne jFrameOne = new JFrameOne();
                 JFrameTwo jFrameTwo = new JFrameTwo();
+                Jpannel jpannel=new Jpannel();
 //                jFrameTwo.in
             }
         });
