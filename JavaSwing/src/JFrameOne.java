@@ -9,6 +9,8 @@ public class JFrameOne extends JFrame {
         setTitle("JFrameOne");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(500,400);
+        setLocationRelativeTo(null);
+        setResizable(false);
         setVisible(true);
 
     }
