@@ -8,6 +8,9 @@ public class Main {
                 MainWindow mainWindow=new MainWindow();
                 mainWindow.show();
 
+                JFrameOne frameOne=new JFrameOne();
+
+
             }
         });
         System.out.println("Hello world!");
