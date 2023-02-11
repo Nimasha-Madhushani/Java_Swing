@@ -1,6 +1,3 @@
-// Java program to implement
-// a Simple Registration Form
-// using Java Swing
 
 import javax.swing.*;
 import java.awt.*;
