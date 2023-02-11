@@ -17,7 +17,7 @@ public class Jpannel {
         jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         JPanel jPanel = new JPanel();
-        jPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 5));
+        jPanel.setLayout(new FlowLayout(FlowLayout.LEFT, 10, 5));
         jPanel.setBackground(Color.RED);
         Button button1=new Button("Button1");
         jPanel.add(button1);
@@ -25,6 +25,7 @@ public class Jpannel {
         jPanel.add(button2);
         Button button3=new Button("Button3");
         jPanel.add(button3);
+        jPanel.setPreferredSize(new Dimension(250,250));
         jFrame.add(jPanel, BorderLayout.NORTH);
         jFrame.setVisible(true);
     }
