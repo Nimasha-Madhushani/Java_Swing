@@ -11,6 +11,7 @@ public class Main {
 //                JFrameTwo jFrameTwo = new JFrameTwo();
 //                Jpannel jpannel=new Jpannel();
                 MainFrame mainFrame = new MainFrame();
+                Flow_Layout flow_layout=new Flow_Layout();
             }
         });
         System.out.println("Hello world!");
