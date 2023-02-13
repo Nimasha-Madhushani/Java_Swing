@@ -26,7 +26,7 @@ public class Flow_Layout {
         jFrame.setLocationRelativeTo(null);
         jFrame.add(jPanel, BorderLayout.CENTER);
 
-        jFrame.setResizable(false);
+
         jFrame.setVisible(true);
 
     }
