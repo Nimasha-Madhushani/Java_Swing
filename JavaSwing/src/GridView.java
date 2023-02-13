@@ -16,8 +16,8 @@ public class GridView {
         jFrame.setSize(800, 500);
         jFrame.setLocationRelativeTo(null);
 
-        jPanel = new JPanel(new GridLayout());
-        for (int i=1;i<=5;i++){
+        jPanel = new JPanel(new GridLayout(0,5,10,10));
+        for (int i=1;i<=20;i++){
             JButton jButton=new JButton("Button"+Integer.toString(i));
             jPanel.add(jButton);
         }
